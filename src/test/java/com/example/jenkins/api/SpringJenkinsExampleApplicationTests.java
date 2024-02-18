@@ -12,7 +12,7 @@ class SpringJenkinsExampleApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		logger.info("Test case executing");
+		logger.info("Test case executing after maven build");
 	}
 
 }
