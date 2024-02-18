@@ -11,7 +11,7 @@ class SpringJenkinsExampleApplicationTests {
 	static Logger logger = LoggerFactory.getLogger(SpringJenkinsExampleApplicationTests.class);
 	
 	@Test
-	void () {
+	void contextLoads() {
 		logger.info("Test case executing after maven build");
 		
 		
